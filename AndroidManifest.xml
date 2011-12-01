@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.mysms.android.sms.theme.system"
+  android:versionCode="3"
+  android:versionName="1.1">
+  <application android:icon="@drawable/icon" android:label="@string/app_name">
+    <activity
+      android:name="com.mysms.android.sms.theme.ThemeActivity"
+      android:label="@string/theme_name"
+      android:icon="@drawable/icon"
+      android:theme="@android:style/Theme.Translucent.NoTitleBar"
+      android:exported="true"
+    >
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.INFO" />
+      </intent-filter>
+      <!-- this intent is required to get listed as theme package in mysms app -->
+      <intent-filter>
+        <action android:name="com.mysms.android.sms.intent.action.THEME" />
+      </intent-filter>
+    </activity>
+  </application>
+  <uses-sdk android:minSdkVersion="3" android:targetSdkVersion="4"/>
+</manifest> 

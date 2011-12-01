@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="Mysms" parent="@android:style/Theme">
+	
+		<item name="avatarDefaultDrawable">@drawable/avatar_default</item>
+
+		<item name="contentDividerStyle">@style/ContentDivider</item>
+		<item name="topBarStyle">@style/TopBar</item>
+		<item name="bottomBarStyle">@style/BottomBar</item>
+		
+		<item name="messageCharCounterStyle">@style/MessageCharCounter</item>
+		<item name="messageRoutingButtonStyle">@style/MessageRoutingButton</item>
+		
+		<item name="recipientsToTextStyle">@style/RecipientsToText</item>
+		<item name="recipientsAddButtonStyle">@style/RecipientsAddButton</item>
+		
+		<item name="contactListGroupItemStyle">@style/ContactListGroupItem</item>
+		<item name="contactListGroupItemBackgroundStyle">@style/ContactListGroupItemBackground</item>
+		
+		<item name="contactListItemNameStyle">@style/ContactListItemName</item>
+		<item name="contactListItemNumberStyle">@style/ContactListItemNumber</item>
+	
+		<item name="conversationListNewMessageStyle">@style/ConversationListNewMessage</item>
+		<item name="conversationListFriendsStyle">@style/ConversationListFriends</item>
+		
+		<item name="conversationListItemDateStyle">@style/ConversationListItemDate</item>
+		<item name="conversationListItemDraftStyle">@style/ConversationListItemDraft</item>
+		<item name="conversationListItemNameStyle">@style/ConversationListItemName</item>
+		<item name="conversationListItemSnippetStyle">@style/ConversationListItemSnippet</item>
+		
+		<item name="messageListGroupHeaderStyle">@style/MessageListGroupHeader</item>
+			
+		<item name="messageListItemTextStyle">@style/MessageListItemText</item>
+		<item name="messageListItemBubbleIncomingDrawable">@drawable/bubble_mysms_style_gray</item>
+		<item name="messageListItemBubbleOutgoingDrawable">@drawable/bubble_mysms_style_blue</item>
+		<item name="messageListItemStatusDeliveredDrawable">@drawable/message_status_delivered</item>
+		<item name="messageListItemStatusFailedDrawable">@drawable/message_status_failed</item>
+		
+		<item name="friendsInviteButtonStyle">@style/FriendsInviteButton</item>
+		<item name="friendsInviteHeaderStyle">@style/FriendsInviteHeader</item>
+		<item name="friendsInviteTextStyle">@style/FriendsInviteText</item>
+		
+		<item name="friendsListItemNameStyle">@style/FriendsListItemName</item>
+		<item name="friendsListItemMsisdnStyle">@style/FriendsListItemMsisdn</item>
+		<item name="friendsListInfoStyle">@style/FriendsListInfo</item>
+		
+		<item name="dialogHeaderStyle">@style/DialogHeader</item>
+		
+		<item name="messageSendButtonStyle">@style/MessageSendButton</item>
+		<item name="attachmentDrawable">@drawable/attachment</item>
+		<item name="attachmentBackgroundDrawable">@drawable/full_frame</item>
+		
+	</style>
+	
+	<style name="Mysms.ComposeMessage">
+	    <item name="android:windowBackground">@android:drawable/bottom_bar</item>
+	</style>
+	<style name="Mysms.ContactList" />
+	<style name="Mysms.ConversationList" />
+	<style name="Mysms.MessageList" />
+	<style name="Mysms.MessageList.Bubble">
+		<item name="messageListGroupHeaderStyle">@style/MessageListGroupHeader.Bubble</item>
+		<item name="messageListItemTextStyle">@style/MessageListItemText.Bubble</item>
+		
+		<item name="android:windowBackground">@android:color/transparent</item>
+		<item name="android:windowShowWallpaper">true</item>
+		<item name="android:listViewStyle">@style/Widget.ListView.MessageList.Bubble</item>
+	</style>
+	
+	<style name="Mysms.Dialog" parent="@android:style/Theme.Dialog">
+		
+		<item name="avatarDefaultDrawable">@drawable/avatar_default</item>
+
+		<item name="contentDividerStyle">@style/ContentDivider</item>
+		<item name="topBarStyle">@style/TopBar</item>
+		<item name="bottomBarStyle">@style/BottomBar</item>
+		
+		<item name="messageCharCounterStyle">@style/MessageCharCounter</item>
+		<item name="messageRoutingButtonStyle">@style/MessageRoutingButton</item>
+		
+		<item name="recipientsToTextStyle">@style/RecipientsToText</item>
+		<item name="recipientsAddButtonStyle">@style/RecipientsAddButton</item>
+		
+		<item name="dialogHeaderStyle">@style/DialogHeader</item>
+		
+		<item name="messageSendButtonStyle">@style/MessageSendButton</item>
+		
+	</style>
+	
+	<style name="Mysms.Dialog.ComposeMessage">
+	    <item name="android:windowBackground">@android:drawable/bottom_bar</item>
+	</style>
+	<style name="Mysms.Dialog.NotifyPopup">
+		<item name="notifyPopupNameStyle">@style/NotifyPopupName</item>
+		<item name="notifyPopupDateStyle">@style/NotifyPopupDate</item>
+		<item name="notifyPopupTextStyle">@style/NotifyPopupText</item>
+		<item name="notifyPopupUnreadStyle">@style/NotifyPopupUnread</item>
+		
+		<item name="attachmentDrawable">@drawable/attachment</item>
+		<item name="attachmentBackgroundDrawable">@drawable/full_frame</item>
+	</style>
+	
+	<style name="Mysms.Popup">
+	</style>
+	
+	<style name="Mysms.Dialog.Alert">
+	</style>
+</resources>

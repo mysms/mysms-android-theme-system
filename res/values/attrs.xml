@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<attr name="avatarDefaultDrawable" format="reference" />
+	
+	<attr name="contentDividerStyle" format="reference" />
+	<attr name="topBarStyle" format="reference" />
+	<attr name="bottomBarStyle" format="reference" />
+	
+	<attr name="messageCharCounterStyle" format="reference" />
+	<attr name="messageRoutingButtonStyle" format="reference" />
+	
+	<attr name="recipientsToTextStyle" format="reference" />
+	<attr name="recipientsAddButtonStyle" format="reference" />
+	
+	<attr name="contactListGroupItemStyle" format="reference" />
+	<attr name="contactListGroupItemBackgroundStyle" format="reference" />
+	
+	<attr name="contactListItemNameStyle" format="reference" />
+	<attr name="contactListItemNumberStyle" format="reference" />
+		
+	<attr name="conversationListNewMessageStyle" format="reference" />
+	
+	<attr name="conversationListItemDateStyle" format="reference" />
+	<attr name="conversationListItemDraftStyle" format="reference" />
+	<attr name="conversationListItemNameStyle" format="reference" />
+	<attr name="conversationListItemSnippetStyle" format="reference" />
+	
+	<attr name="messageListGroupHeaderStyle" format="reference" />
+	
+	<attr name="messageListItemTextStyle" format="reference" />
+	<attr name="messageListItemBubbleIncomingDrawable" format="reference" />
+	<attr name="messageListItemBubbleOutgoingDrawable" format="reference" />
+	<attr name="messageListItemStatusDeliveredDrawable" format="reference" />
+	<attr name="messageListItemStatusFailedDrawable" format="reference" />
+	
+	<attr name="notifyPopupNameStyle" format="reference" />
+	<attr name="notifyPopupDateStyle" format="reference" />
+	<attr name="notifyPopupTextStyle" format="reference" />
+	<attr name="notifyPopupUnreadStyle" format="reference" />
+	
+	<attr name="dialogHeaderStyle" format="reference" />
+	
+	<attr name="messageListItemStatusPendingRotatingDrawable" format="reference" />
+	<attr name="messageListItemStatusPendingDrawable" format="reference" />
+	
+	<attr name="messageListItemNumbersTextStyle" format="reference" />
+	
+	<attr name="recipientsEditorStyle" format="reference" />
+	<attr name="messageEditorStyle" format="reference" />
+	<attr name="isUpdate" format="boolean" />
+	
+	<attr name="statusBarText" format="reference" />
+		
+	<attr name="conversationListNewMessageTextStyle" format="reference" />
+	<attr name="conversationListFriendsStyle" format="reference" />
+	<attr name="conversationListFriendsTextStyle" format="reference" />
+	
+	<attr name="friendsListItemStyle" format="reference" />
+	<attr name="friendsListItemNameStyle" format="reference" />
+	<attr name="friendsListItemMsisdnStyle" format="reference" />
+	<attr name="friendsListInfoStyle" format="reference" />
+	
+	<attr name="friendsInviteButtonStyle" format="reference" />
+	<attr name="friendsInviteHeaderStyle" format="reference" />
+	<attr name="friendsInviteTextStyle" format="reference" />
+	
+	<attr name="messageSendButtonStyle" format="reference" />
+	<attr name="attachmentDrawable" format="reference" />
+	<attr name="attachmentBackgroundDrawable" format="reference" />
+</resources>

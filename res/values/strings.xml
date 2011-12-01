@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">mysms Theme Dark</string>
+  <string name="theme_name">mysms dark</string>
+  <string name="theme_dialog_title"><i>mysms</i> Theme Dark</string>
+  <string name="theme_dialog_activate_primary_text"><i>mysms</i> is required to activate this theme. Would you like to launch <i>mysms</i>?</string>
+  <string name="theme_dialog_activate_secondary_text">Tap \"Activate\" to launch <i>mysms</i> and activate this theme.</string>
+  <string name="theme_dialog_activate_text">Activate</string>
+  <string name="theme_dialog_install_primary_text"><i>mysms</i> is required to use this theme. Would you like to install <i>mysms</i>?</string>
+  <string name="theme_dialog_install_secondary_text">Tap \"Install\" to find <i>mysms</i> on the Android Market.</string>
+  <string name="theme_dialog_install_text">Install</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="foreground_text">#ffffffff</color>
+  <color name="foreground_dim_text">#ffcccccc</color>
+  <color name="foreground_inverse_text">#ff4f4f4f</color>
+  <color name="blue_text">#1775ab</color>
+</resources>
