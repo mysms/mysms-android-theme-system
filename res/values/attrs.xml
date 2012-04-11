@@ -67,4 +67,8 @@
 	<attr name="messageSendButtonStyle" format="reference" />
 	<attr name="attachmentDrawable" format="reference" />
 	<attr name="attachmentBackgroundDrawable" format="reference" />
+	
+	<attr name="actionBarBackground" format="reference" />
+	
+	<attr name="usesActionBar" format="boolean" />
 </resources>
