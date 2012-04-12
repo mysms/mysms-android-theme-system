@@ -45,7 +45,7 @@
 		<item name="friendsListItemMsisdnStyle">@style/FriendsListItemMsisdn</item>
 		<item name="friendsListInfoStyle">@style/FriendsListInfo</item>
 		
-		<item name="dialogHeaderStyle">@style/DialogHeader</item>
+		<item name="dialogHeaderStyle">?android:attr/listSeparatorTextViewStyle</item>
 		
 		<item name="messageSendButtonStyle">@style/MessageSendButton</item>
 		<item name="attachmentDrawable">@drawable/attachment</item>
