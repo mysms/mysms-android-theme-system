@@ -53,6 +53,8 @@
 		
 		<item name="actionBarBackground">@drawable/action_bar</item>
 		
+		<item name="newFriendIcon">@drawable/ic_new_friend</item>
+		
 		<!-- enable actionbar support -->
 		<item name="usesActionBar">true</item>
 	</style>
@@ -86,6 +88,8 @@
 		<item name="recipientsAddButtonStyle">@style/RecipientsAddButton</item>
 		
 		<item name="messageSendButtonStyle">@style/MessageSendButton</item>
+		
+		<item name="newFriendIcon">@drawable/ic_new_friend</item>
 	</style>
 	
 	<style name="Mysms.Dialog.ComposeMessage" />

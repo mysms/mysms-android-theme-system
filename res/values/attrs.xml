@@ -71,4 +71,8 @@
 	<attr name="actionBarBackground" format="reference" />
 	
 	<attr name="usesActionBar" format="boolean" />
+	
+	<attr name="conversationListItemUnreadStyle" format="reference" />
+	
+	<attr name="newFriendIcon" format="reference" />
 </resources>
