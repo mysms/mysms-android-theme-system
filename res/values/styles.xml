@@ -53,6 +53,12 @@
 		<item name="android:textSize">13sp</item>
 	</style>
 
+	<style name="ConversationListHeader">
+		<item name="android:background">@drawable/action_bar</item>
+		<item name="android:paddingLeft">12dp</item>
+		<item name="android:minHeight">48dp</item>
+	</style>
+
 	<style name="ConversationListNewMessage">
 		<item name="android:background">@drawable/list_button_background_left</item>
 	</style>

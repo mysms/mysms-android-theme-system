@@ -20,7 +20,8 @@
 		
 		<item name="contactListItemNameStyle">@style/ContactListItemName</item>
 		<item name="contactListItemNumberStyle">@style/ContactListItemNumber</item>
-				
+		
+		<item name="conversationListHeader">@style/ConversationListHeader</item>
 		<item name="conversationListNewMessageStyle">@style/ConversationListNewMessage</item>
 		<item name="conversationListFriendsStyle">@style/ConversationListFriends</item>
 		
@@ -54,6 +55,8 @@
 		<item name="actionBarBackground">@drawable/action_bar</item>
 		
 		<item name="newFriendIcon">@drawable/ic_new_friend</item>
+		<item name="composeIcon">@drawable/ab_compose</item>
+		<item name="friendsListIcon">@drawable/ab_friends_list</item>
 		
 		<!-- enable actionbar support -->
 		<item name="usesActionBar">true</item>

@@ -75,4 +75,8 @@
 	<attr name="conversationListItemUnreadStyle" format="reference" />
 	
 	<attr name="newFriendIcon" format="reference" />
+	
+	<attr name="conversationListHeader" format="reference" />
+	<attr name="composeIcon" format="reference" />
+	<attr name="friendsListIcon" format="reference" />
 </resources>
