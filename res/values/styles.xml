@@ -6,11 +6,11 @@
 	</style>
 
 	<style name="TopBar">
-		 <item name="android:background">@android:drawable/bottom_bar</item>
+		 <item name="android:background">@android:color/background_dark</item>
 	</style>
 
 	<style name="BottomBar">
-		 <item name="android:background">@android:drawable/bottom_bar</item>
+		 <item name="android:background">@drawable/bottom_bar</item>
 	</style>
 	
 	<style name="MessageCharCounter">

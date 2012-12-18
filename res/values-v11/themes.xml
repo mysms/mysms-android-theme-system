@@ -65,7 +65,7 @@
 	</style>
 	
 	<style name="Mysms.ComposeMessage">
-	    <item name="android:windowBackground">@android:drawable/bottom_bar</item>
+	    <item name="android:windowBackground">@drawable/bottom_bar</item>
 	</style>
 	<style name="Mysms.ContactList" />
 	<style name="Mysms.ConversationList" />

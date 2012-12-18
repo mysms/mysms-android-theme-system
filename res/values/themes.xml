@@ -5,7 +5,7 @@
 		<item name="avatarDefaultDrawable">@drawable/avatar_default</item>
 
 		<item name="contentDividerStyle">@style/ContentDivider</item>
-		<item name="topBarStyle">@style/TopBar</item>
+		<item name="topBarStyle">@style/BottomBar</item>
 		<item name="bottomBarStyle">@style/BottomBar</item>
 		
 		<item name="messageCharCounterStyle">@style/MessageCharCounter</item>
