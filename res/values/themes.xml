@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
 	<style name="Mysms" parent="@android:style/Theme">
 	
 		<item name="avatarDefaultDrawable">@drawable/avatar_default</item>
@@ -82,6 +82,12 @@
 		<item name="messageCharCounterStyle">@style/MessageCharCounter</item>
 		<item name="messageRoutingButtonStyle">@style/MessageRoutingButton</item>
 		
+		<item name="contactListGroupItemStyle">@style/ContactListGroupItem</item>
+		<item name="contactListGroupItemBackgroundStyle">@style/ContactListGroupItemBackground</item>
+		
+		<item name="contactListItemNameStyle">@style/ContactListItemName</item>
+		<item name="contactListItemNumberStyle">@style/ContactListItemNumber</item>
+		
 		<item name="recipientsToTextStyle">@style/RecipientsToText</item>
 		<item name="recipientsAddButtonStyle">@style/RecipientsAddButton</item>
 		
@@ -89,6 +95,9 @@
 		
 		<item name="messageSendButtonStyle">@style/MessageSendButton</item>
 		
+		<item name="friendsListItemNameStyle">@style/FriendsListItemName</item>
+		<item name="friendsListItemMsisdnStyle">@style/FriendsListItemMsisdn</item>
+		<item name="friendsListInfoStyle">@style/FriendsListInfo</item>
 	</style>
 	
 	<style name="Mysms.Dialog.ComposeMessage">

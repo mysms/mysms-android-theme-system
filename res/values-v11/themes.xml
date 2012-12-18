@@ -30,6 +30,8 @@
 		<item name="conversationListItemNameStyle">@style/ConversationListItemName</item>
 		<item name="conversationListItemSnippetStyle">@style/ConversationListItemSnippet</item>
 		
+		<item name="dialogInfoTextStyle">@style/DialogInfoText</item>
+		
 		<item name="messageListGroupHeaderStyle">@style/MessageListGroupHeader</item>
 			
 		<item name="messageListItemTextStyle">@style/MessageListItemText</item>

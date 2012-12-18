@@ -79,4 +79,5 @@
 	<attr name="conversationListHeader" format="reference" />
 	<attr name="composeIcon" format="reference" />
 	<attr name="friendsListIcon" format="reference" />
+	<attr name="dialogInfoTextStyle" format="reference" />
 </resources>
