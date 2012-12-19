@@ -85,7 +85,7 @@
 	</style>
 		
 	<style name="DialogInfoText">
-		<item name="android:textColor">@android:color/primary_text_dark</item>
+		<item name="android:textColor">@color/foreground_text</item>
 	</style>
 	
 	<style name="MessageListGroupHeader">
