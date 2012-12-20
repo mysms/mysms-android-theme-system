@@ -5,7 +5,7 @@
 		<item name="avatarDefaultDrawable">@drawable/avatar_default</item>
 
 		<item name="contentDividerStyle">@style/ContentDivider</item>
-		<item name="topBarStyle">@style/BottomBar</item>
+		<item name="topBarStyle">@style/TopBar</item>
 		<item name="bottomBarStyle">@style/BottomBar</item>
 		
 		<item name="messageCharCounterStyle">@style/MessageCharCounter</item>
@@ -57,7 +57,7 @@
 	</style>
 	
 	<style name="Mysms.ComposeMessage">
-	    <item name="android:windowBackground">@android:drawable/bottom_bar</item>
+		<item name="android:windowBackground">@drawable/bg_compose_message</item>
 	</style>
 	<style name="Mysms.ContactList" />
 	<style name="Mysms.ConversationList" />
@@ -101,7 +101,7 @@
 	</style>
 	
 	<style name="Mysms.Dialog.ComposeMessage">
-	    <item name="android:windowBackground">@android:drawable/bottom_bar</item>
+	    <item name="android:windowBackground">@drawable/bg_compose_message</item>
 	</style>
 	<style name="Mysms.Dialog.NotifyPopup">
 		<item name="notifyPopupNameStyle">@style/NotifyPopupName</item>

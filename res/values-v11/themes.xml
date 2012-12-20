@@ -30,8 +30,6 @@
 		<item name="conversationListItemNameStyle">@style/ConversationListItemName</item>
 		<item name="conversationListItemSnippetStyle">@style/ConversationListItemSnippet</item>
 		
-		<item name="dialogInfoTextStyle">@style/DialogInfoText</item>
-		
 		<item name="messageListGroupHeaderStyle">@style/MessageListGroupHeader</item>
 			
 		<item name="messageListItemTextStyle">@style/MessageListItemText</item>
@@ -65,7 +63,7 @@
 	</style>
 	
 	<style name="Mysms.ComposeMessage">
-	    <item name="android:windowBackground">@drawable/bottom_bar</item>
+	    <item name="android:windowBackground">@drawable/bg_compose_message</item>
 	    <item name="dialogInfoTextStyle">@style/DialogInfoText</item>
 	</style>
 	<style name="Mysms.ContactList" />
@@ -82,10 +80,10 @@
 	
 	<style name="Mysms.Dialog" parent="@android:style/Theme.Holo.Dialog">
 		<item name="avatarDefaultDrawable">@drawable/avatar_default</item>
-
+		
 		<item name="contentDividerStyle">@style/ContentDivider</item>
-		<item name="topBarStyle">@style/TopBar</item>
-		<item name="bottomBarStyle">@style/BottomBar</item>
+		<item name="topBarStyle">@style/backgroundTransparent</item>
+		<item name="bottomBarStyle">@style/backgroundTransparent</item>
 		
 		<item name="messageCharCounterStyle">@style/MessageCharCounter</item>
 		<item name="messageRoutingButtonStyle">@style/MessageRoutingButton</item>
@@ -98,7 +96,6 @@
 		<item name="newFriendIcon">@drawable/ic_new_friend</item>
 	</style>
 	
-	<style name="Mysms.Dialog.ComposeMessage" />
 	<style name="Mysms.Dialog.NotifyPopup">
 		<item name="notifyPopupNameStyle">@style/NotifyPopupName</item>
 		<item name="notifyPopupDateStyle">@style/NotifyPopupDate</item>
@@ -110,6 +107,18 @@
 	</style>
 	
 	<style name="Mysms.Popup">
+	</style>
+
+	<style name="Mysms.Dialog.ComposeMessage">
+	    <item name="dialogInfoTextStyle">@style/DialogInfoText</item>
+	</style>
+		
+	<style name="Mysms.Dialog.NotifyPopup">
+	    <item name="dialogInfoTextStyle">@style/DialogInfoText</item>
+	</style>
+
+	<style name="Mysms.MessageList">
+	    <item name="dialogInfoTextStyle">@style/DialogInfoText</item>
 	</style>
 	
 	<style name="Mysms.Dialog.Alert">

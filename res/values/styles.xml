@@ -10,7 +10,7 @@
 	</style>
 
 	<style name="BottomBar">
-		 <item name="android:background">@drawable/bottom_bar</item>
+		 <item name="android:background">@drawable/bg_compose_message</item>
 	</style>
 	
 	<style name="MessageCharCounter">
