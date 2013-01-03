@@ -80,4 +80,8 @@
 	<attr name="composeIcon" format="reference" />
 	<attr name="friendsListIcon" format="reference" />
 	<attr name="dialogInfoTextStyle" format="reference" />
+	<attr name="groupsInviteIcon" format="reference" />
+	<attr name="groupsNewIcon" format="reference" />
+	<attr name="friendsListGroupsNewStyle" format="reference" />
+	<attr name="friendsListGroupsInviteStyle" format="reference" />
 </resources>

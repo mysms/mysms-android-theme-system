@@ -100,6 +100,10 @@
 		<item name="android:gravity">center</item>
 	</style>
 	
+	<style name="backgroundTransparent">
+		 <item name="android:background">@android:color/transparent</item>
+	</style>
+	
 	<style name="MessageListItemText">
 		<item name="android:textColor">@color/list_item_text</item>
 		<item name="android:textSize">13sp</item>
@@ -131,7 +135,13 @@
 		<item name="android:textSize">13sp</item>
 	</style>
 	<style name="FriendsListInfo">
-		<item name="android:background">@drawable/dark_header_dither</item>
+		<item name="android:background">@android:color/black</item>
+	</style>
+	<style name="FriendsListGroupsNew">
+		<item name="android:background">@drawable/list_button_background_left</item>
+	</style>
+	<style name="FriendsListGroupsInvite">
+		<item name="android:background">@drawable/list_button_background_left</item>
 	</style>
 	
 	<style name="MessageSendButton">

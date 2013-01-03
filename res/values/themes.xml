@@ -44,6 +44,8 @@
 		<item name="friendsListItemNameStyle">@style/FriendsListItemName</item>
 		<item name="friendsListItemMsisdnStyle">@style/FriendsListItemMsisdn</item>
 		<item name="friendsListInfoStyle">@style/FriendsListInfo</item>
+		<item name="friendsListGroupsNewStyle">@style/FriendsListGroupsNew</item>
+		<item name="friendsListGroupsInviteStyle">@style/FriendsListGroupsInvite</item>
 		
 		<item name="dialogHeaderStyle">@style/DialogHeader</item>
 		
@@ -53,10 +55,12 @@
 		
 		<item name="composeIcon">@drawable/ab_compose</item>
 		<item name="friendsListIcon">@drawable/ab_friends_list</item>
-		
+		<item name="groupsInviteIcon">@drawable/ab_invite_friends</item>
+		<item name="groupsNewIcon">@drawable/ab_groups_add</item>
 	</style>
 	
 	<style name="Mysms.ComposeMessage">
+	    <item name="topBarStyle">@style/backgroundTransparent</item>
 		<item name="android:windowBackground">@drawable/bg_compose_message</item>
 	</style>
 	<style name="Mysms.ContactList" />
