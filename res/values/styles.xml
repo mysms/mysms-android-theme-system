@@ -136,8 +136,6 @@
 	</style>
 	<style name="FriendsListInfo">
 		<item name="android:background">@android:color/black</item>
-		<item name="android:textSize">15sp</item>
-		<item name="android:textColor">@color/list_item_text</item>
 	</style>
 	<style name="FriendsListGroupsNew">
 		<item name="android:background">@drawable/list_button_background_left</item>
