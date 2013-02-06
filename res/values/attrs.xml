@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+	<!-- Theme Resources Start (don't reorder, don't insert or delete, only append) -->
+	
 	<attr name="avatarDefaultDrawable" format="reference" />
 	
 	<attr name="contentDividerStyle" format="reference" />
@@ -17,8 +20,6 @@
 	
 	<attr name="contactListItemNameStyle" format="reference" />
 	<attr name="contactListItemNumberStyle" format="reference" />
-		
-	<attr name="conversationListNewMessageStyle" format="reference" />
 	
 	<attr name="conversationListItemDateStyle" format="reference" />
 	<attr name="conversationListItemDraftStyle" format="reference" />
@@ -52,21 +53,18 @@
 	<attr name="statusBarText" format="reference" />
 		
 	<attr name="conversationListNewMessageTextStyle" format="reference" />
-	<attr name="conversationListFriendsStyle" format="reference" />
 	<attr name="conversationListFriendsTextStyle" format="reference" />
 	
 	<attr name="friendsListItemStyle" format="reference" />
 	<attr name="friendsListItemNameStyle" format="reference" />
 	<attr name="friendsListItemMsisdnStyle" format="reference" />
 	<attr name="friendsListInfoStyle" format="reference" />
-	
 	<attr name="friendsInviteButtonStyle" format="reference" />
 	<attr name="friendsInviteHeaderStyle" format="reference" />
 	<attr name="friendsInviteTextStyle" format="reference" />
 	
 	<attr name="messageSendButtonStyle" format="reference" />
 	<attr name="attachmentDrawable" format="reference" />
-	<attr name="attachmentBackgroundDrawable" format="reference" />
 	
 	<attr name="actionBarBackground" format="reference" />
 	
@@ -82,6 +80,342 @@
 	<attr name="dialogInfoTextStyle" format="reference" />
 	<attr name="groupsInviteIcon" format="reference" />
 	<attr name="groupsNewIcon" format="reference" />
-	<attr name="friendsListGroupsNewStyle" format="reference" />
-	<attr name="friendsListGroupsInviteStyle" format="reference" />
+	
+	<attr name="headerIcon" format="reference" />
+	<attr name="messageEditorBackgroundStyle" format="reference" />
+	<attr name="separatorLineStyle" format="reference" />
+	<attr name="hintTextStyle" format="reference" />
+	<attr name="attachmentBackgroundStyle" format="reference" />
+	<attr name="attachmentImageStyle" format="reference" />
+	<attr name="actionbarSelectableStyle" format="reference" />
+	
+	<attr name="messageListItemIncomingTextStyle" format="reference" />
+	<attr name="messageListItemDateStyle" format="reference" />
+	<attr name="messageListItemIncomingDateStyle" format="reference" />
+	
+	<attr name="separatorLineAttachmentStyle" format="reference" />
+	<attr name="messageListItemAddIconDrawable" format="reference" />
+	<!-- Theme Resources End -->
+	
+	<!-- Theme Styleables Start -->
+	
+	<declare-styleable name="contentDivider">
+		<attr name="android:background" />
+	</declare-styleable>
+	
+	<declare-styleable name="topBar">
+		<attr name="android:background" />
+	</declare-styleable>
+	
+	<declare-styleable name="bottomBar">
+		<attr name="android:background" />
+	</declare-styleable>
+	
+	<declare-styleable name="messageCharCounter">
+		<attr name="android:textColor" />
+		<attr name="android:textSize" />
+		<attr name="android:textStyle" />
+	</declare-styleable>
+	
+	<declare-styleable name="messageRoutingButton">
+		<attr name="android:background" />
+	</declare-styleable>
+	
+	<declare-styleable name="messageEditor">
+		<attr name="android:textColor" />
+		<attr name="android:textSize" />
+		<attr name="android:textStyle" />
+	</declare-styleable>
+	
+	<declare-styleable name="recipientsToText">
+		<attr name="android:textColor" />
+		<attr name="android:textSize" />
+		<attr name="android:textStyle" />
+	</declare-styleable>
+	
+	<declare-styleable name="recipientsAddButton">
+		<attr name="android:background" />
+		<attr name="android:src" />
+	</declare-styleable>
+	
+	<declare-styleable name="recipientsEditor">
+		<attr name="android:textColor" />
+		<attr name="android:textSize" />
+		<attr name="android:textStyle" />
+	</declare-styleable>
+	
+	<declare-styleable name="contactListGroupItem">
+		<attr name="android:textColor" />
+		<attr name="android:textSize" />
+		<attr name="android:textStyle" />
+	</declare-styleable>
+	
+	<declare-styleable name="contactListGroupItemBackground">
+		<attr name="android:background" />
+		<attr name="android:paddingLeft" />
+		<attr name="android:paddingRight" />
+		<attr name="android:paddingTop" />
+		<attr name="android:paddingBottom" />
+	</declare-styleable>
+	
+	<declare-styleable name="contactListItemName">
+		<attr name="android:textColor" />
+		<attr name="android:textSize" />
+		<attr name="android:textStyle" />
+	</declare-styleable>
+	
+	<declare-styleable name="contactListItemNumber">
+		<attr name="android:textColor" />
+		<attr name="android:textSize" />
+		<attr name="android:textStyle" />
+	</declare-styleable>
+	
+	<declare-styleable name="conversationListHeader">
+		<attr name="android:background" />
+		<attr name="android:padding" />
+		<attr name="android:paddingLeft" />
+		<attr name="android:paddingRight" />
+		<attr name="android:paddingTop" />
+		<attr name="android:paddingBottom" />
+	</declare-styleable>
+	
+	<declare-styleable name="conversationListNewMessage">
+		<attr name="android:background" />
+		<attr name="android:padding" />
+		<attr name="android:paddingLeft" />
+		<attr name="android:paddingRight" />
+		<attr name="android:paddingTop" />
+		<attr name="android:paddingBottom" />
+	</declare-styleable>
+	
+	<declare-styleable name="conversationListItemDate">
+		<attr name="android:textColor" />
+		<attr name="android:textSize" />
+		<attr name="android:textStyle" />
+	</declare-styleable>
+	
+	<declare-styleable name="conversationListItemName">
+		<attr name="android:textColor" />
+		<attr name="android:textSize" />
+		<attr name="android:textStyle" />
+	</declare-styleable>
+	
+	<declare-styleable name="conversationListItemDraft">
+		<attr name="android:textColor" />
+		<attr name="android:textSize" />
+		<attr name="android:textStyle" />
+	</declare-styleable>
+	
+	<declare-styleable name="conversationListItemSnippet">
+		<attr name="android:textColor" />
+		<attr name="android:textSize" />
+		<attr name="android:textStyle" />
+	</declare-styleable>
+	
+	<declare-styleable name="messageListGroupHeader">
+		<attr name="android:background" />
+		<attr name="android:gravity" />
+		<attr name="android:shadowColor" />
+		<attr name="android:textColor" />
+		<attr name="android:textSize" />
+		<attr name="android:textStyle" />
+	</declare-styleable>
+	
+	<declare-styleable name="messageListItemText">
+		<attr name="android:textColor" />
+		<attr name="android:textSize" />
+		<attr name="android:textStyle" />
+	</declare-styleable>
+	
+	<declare-styleable name="notifyPopupName">
+		<attr name="android:textColor" />
+		<attr name="android:textSize" />
+		<attr name="android:textStyle" />
+	</declare-styleable>
+	
+	<declare-styleable name="notifyPopupDate">
+		<attr name="android:textColor" />
+		<attr name="android:textSize" />
+		<attr name="android:textStyle" />
+	</declare-styleable>
+	
+	<declare-styleable name="notifyPopupText">
+		<attr name="android:textColor" />
+		<attr name="android:textSize" />
+		<attr name="android:textStyle" />
+	</declare-styleable>
+	
+	<declare-styleable name="notifyPopupUnread">
+		<attr name="android:textColor" />
+		<attr name="android:textSize" />
+		<attr name="android:textStyle" />
+	</declare-styleable>
+	
+	<declare-styleable name="dialogHeader">
+		<attr name="android:background" />
+		<attr name="android:paddingLeft" />
+		<attr name="android:textColor" />
+		<attr name="android:textSize" />
+		<attr name="android:textStyle" />
+	</declare-styleable>
+	
+	<declare-styleable name="windowTitle">
+		<attr name="android:maxLines" />
+		<attr name="android:scrollHorizontally" />
+		<attr name="android:textColor" />
+		<attr name="android:textSize" />
+		<attr name="android:textStyle" />
+	</declare-styleable>
+	
+	<declare-styleable name="windowTitleBackground">
+		<attr name="android:background" />
+	</declare-styleable>
+	
+	<declare-styleable name="button">
+		<attr name="android:background" />
+		<attr name="android:clickable" />
+		<attr name="android:focusable" />
+		<attr name="android:gravity" />
+		<attr name="android:textColor" />
+		<attr name="android:textSize" />
+		<attr name="android:textStyle" />
+	</declare-styleable>
+	
+	<declare-styleable name="checkBox">
+		<!-- Drawable used for the button graphic -->
+		<attr name="android:button" />
+		<attr name="android:clickable" />
+		<attr name="android:focusable" />
+		<attr name="android:gravity" />
+		<attr name="android:textColor" />
+	</declare-styleable>
+	
+	<declare-styleable name="listView">
+		<!-- Drawable used to indicate the currently selected item in the list. -->
+		<attr name="android:listSelector" />
+		<!-- Drawable or color to draw between list items. -->
+		<attr name="android:divider" />
+	</declare-styleable>
+	
+	<declare-styleable name="messageListItemNumbersText">
+		<attr name="android:textColor" />
+		<attr name="android:textSize" />
+		<attr name="android:textStyle" />
+	</declare-styleable>
+	
+	<declare-styleable name="conversationListNewMessageText">
+		<attr name="android:background" />
+		<attr name="android:drawableLeft" />
+		<attr name="android:padding" />
+		<attr name="android:paddingLeft" />
+		<attr name="android:paddingRight" />
+		<attr name="android:paddingTop" />
+		<attr name="android:paddingBottom" />
+		<attr name="android:textColor" />
+		<attr name="android:textSize" />
+		<attr name="android:textStyle" />
+	</declare-styleable>
+	
+	<declare-styleable name="conversationListFriends">
+		<attr name="android:background" />
+		<attr name="android:padding" />
+		<attr name="android:paddingLeft" />
+		<attr name="android:paddingRight" />
+		<attr name="android:paddingTop" />
+		<attr name="android:paddingBottom" />
+	</declare-styleable>
+	
+	<declare-styleable name="conversationListFriendsText">
+		<attr name="android:background" />
+		<attr name="android:drawableLeft" />
+		<attr name="android:padding" />
+		<attr name="android:paddingLeft" />
+		<attr name="android:paddingRight" />
+		<attr name="android:paddingTop" />
+		<attr name="android:paddingBottom" />
+		<attr name="android:textColor" />
+		<attr name="android:textSize" />
+		<attr name="android:textStyle" />
+	</declare-styleable>
+	
+	<declare-styleable name="friendsListButton">
+		<attr name="android:background" />
+	</declare-styleable>
+	
+	<declare-styleable name="friendsListItemName">
+		<attr name="android:background" />
+		<attr name="android:drawableLeft" />
+		<attr name="android:padding" />
+		<attr name="android:paddingLeft" />
+		<attr name="android:paddingRight" />
+		<attr name="android:paddingTop" />
+		<attr name="android:paddingBottom" />
+		<attr name="android:textColor" />
+		<attr name="android:textSize" />
+		<attr name="android:textStyle" />
+	</declare-styleable>
+	
+	<declare-styleable name="friendsListItemMsisdn">
+		<attr name="android:background" />
+		<attr name="android:drawableLeft" />
+		<attr name="android:padding" />
+		<attr name="android:paddingLeft" />
+		<attr name="android:paddingRight" />
+		<attr name="android:paddingTop" />
+		<attr name="android:paddingBottom" />
+		<attr name="android:textColor" />
+		<attr name="android:textSize" />
+		<attr name="android:textStyle" />
+	</declare-styleable>
+	
+	<declare-styleable name="friendsListInfo">
+		<attr name="android:background" />
+	</declare-styleable>
+	
+	<declare-styleable name="friendsListInfoFrameText">
+		<attr name="android:textColor" />
+		<attr name="android:textSize" />
+		<attr name="android:textStyle" />
+	</declare-styleable>
+	
+	<declare-styleable name="friendsInviteButton">
+		<attr name="android:background" />
+	</declare-styleable>
+		
+	<declare-styleable name="friendsInviteHeader">
+		<attr name="android:textColor" />
+		<attr name="android:textSize" />
+		<attr name="android:textStyle" />
+	</declare-styleable>
+	
+	<declare-styleable name="friendsInviteText">
+		<attr name="android:textColor" />
+		<attr name="android:textSize" />
+		<attr name="android:textStyle" />
+	</declare-styleable>
+	
+	<declare-styleable name="tapHintText">
+		<attr name="android:textColor" />
+	</declare-styleable>
+	<declare-styleable name="messageListItemIncomingText">
+		<attr name="android:textColor" />
+	</declare-styleable>
+	<declare-styleable name="attachmentBackground">
+		<attr name="android:background" />
+	</declare-styleable>
+	
+	<!-- Theme Styleables End -->
+	
+
+	<attr name="colorListItemText" format="color" />
+
+	<!-- Text color, typeface, size, and style for "small" text. Defaults to secondary text color. -->
+	<attr name="textAppearanceVerySmall" format="reference" />
+	
+	<attr name="avatarStyle" format="reference" />
+		
+	<attr name="conversationListItemStyle" format="reference" />
+	
+	<attr name="dialogContentStyle" format="reference" />
+
 </resources>

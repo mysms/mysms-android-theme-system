@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
-
+	<style name="AttachmentBackground">
+		<item name="android:background">@android:color/transparent</item>
+	</style>
+	<style name="AttachmentImage">
+		<item name="android:background">@color/attachment_image</item>
+	</style>
 	<style name="ContentDivider">
 		<item name="android:background">@android:drawable/divider_horizontal_dark</item>
 	</style>
@@ -10,7 +15,7 @@
 	</style>
 
 	<style name="BottomBar">
-		 <item name="android:background">@drawable/bg_compose_message</item>
+		 <item name="android:background">@color/attachment_image</item>
 	</style>
 	
 	<style name="MessageCharCounter">
@@ -31,7 +36,7 @@
 	</style>
 	
 	<style name="ContactListGroupItem">
-		<item name="android:textColor">@color/list_item_text</item>
+		<item name="android:textColor">@color/list_item_name</item>
 		<item name="android:textSize">18sp</item>
 	</style>
 	
@@ -44,7 +49,7 @@
 	</style>
 	
 	<style name="ContactListItemName">
-		<item name="android:textColor">@color/list_item_text</item>
+		<item name="android:textColor">@color/list_item_name</item>
 		<item name="android:textSize">18sp</item>
 	</style>
 	
@@ -68,15 +73,15 @@
 	</style>
 	
 	<style name="ConversationListItemDate">
-		<item name="android:textColor">@color/list_item_text</item>
+		<item name="android:textColor">@color/list_item_date</item>
 		<item name="android:textSize">13sp</item>
 	</style>
 	<style name="ConversationListItemName">
-		<item name="android:textColor">@color/list_item_text</item>
+		<item name="android:textColor">@color/list_item_name</item>
 		<item name="android:textSize">18sp</item>
 	</style>
 	<style name="ConversationListItemDraft">
-		<item name="android:textColor">@color/blue_text</item>
+		<item name="android:textColor">@color/list_item_date</item>
 		<item name="android:textSize">11sp</item>
 	</style>
 	<style name="ConversationListItemSnippet">
@@ -87,32 +92,35 @@
 	<style name="DialogInfoText">
 		<item name="android:textColor">@color/foreground_text</item>
 	</style>
-	
-	<style name="MessageListGroupHeader">
-		<item name="android:background">@android:drawable/title_bar</item>
+	<style name="HintText">
 		<item name="android:textColor">@color/foreground_text</item>
 	</style>
-	<style name="MessageListGroupHeader.Bubble">
-		<item name="android:background">@android:color/transparent</item>
-		<item name="android:shadowColor">#80000000</item>
-		<item name="android:textSize">13sp</item>
-		<item name="android:textStyle">bold</item>
-		<item name="android:gravity">center</item>
-	</style>
 	
-	<style name="backgroundTransparent">
-		 <item name="android:background">@android:color/transparent</item>
+	<style name="MessageListGroupHeader">
+		<item name="android:textColor">@color/message_list_item_date</item>
 	</style>
 	
 	<style name="MessageListItemText">
-		<item name="android:textColor">@color/list_item_text</item>
+		<item name="android:textColor">@color/message_list_text</item>
 		<item name="android:textSize">13sp</item>
+	</style>
+	<style name="MessageListItemIncomingText">
+		<item name="android:textColor">@color/message_list_incoming_text</item>
+		<item name="android:textSize">13sp</item>
+	</style>
+	<style name="MessageListItemDate">
+		<item name="android:textColor">@color/message_list_outgoing_date</item>
+	</style>
+	<style name="MessageListItemIncomingDate">
+		<item name="android:textColor">@color/message_list_incoming_date</item>
 	</style>
 	<style name="MessageListItemText.Bubble">
 		<item name="android:textColor">@color/foreground_inverse_text</item>
 		<item name="android:textSize">13sp</item>
 	</style>
-	
+	<style name="NotifyComposeBackground">
+		<item name="android:background">@color/notify_compose_background</item>
+	</style>
 	<style name="FriendsInviteButton">
 		<item name="android:background">@drawable/dark_header_dither</item>
 	</style>
@@ -127,7 +135,7 @@
 	</style>
 	
 	<style name="FriendsListItemName">
-		<item name="android:textColor">@color/list_item_text</item>
+		<item name="android:textColor">@color/list_item_name</item>
 		<item name="android:textSize">18sp</item>
 	</style>
 	<style name="FriendsListItemMsisdn">
@@ -168,9 +176,15 @@
 		<item name="android:paddingLeft">10dp</item>
 		<item name="android:textColor">@color/foreground_dim_text</item>
 	</style>
-	
-	<style name="Widget.ListView.MessageList.Bubble" parent="android:style/Widget.ListView">
-		<item name="android:listSelector">@drawable/list_selector_background_transparent</item>
+	<style name="SeparatorLine">
+	    <item name="android:background">@color/separator_line</item>
 	</style>
-	
+	<style name="SeparatorLineAttachment">
+	    <item name="android:background">@color/separator_line_attachment</item>
+	</style>
+	<style name="Widget.EditText" parent="@android:style/Widget.EditText">
+		<item name="android:background">@drawable/textfield_background</item>
+		<item name="android:textAppearance">@android:style/TextAppearance.Medium</item>
+		<item name="android:textColor">@color/foreground_darker_text</item>
+	</style>
 </resources>

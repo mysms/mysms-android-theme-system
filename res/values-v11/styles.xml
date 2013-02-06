@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+	<style name="ActionBarTitle" parent="@android:style/TextAppearance.Medium">
+		<item name="android:textColor">#fff</item>
+	</style>
+	<style name="ActionBarSubTitle" parent="@android:style/TextAppearance.Small">
+		<item name="android:textColor">#a9ffffff</item>
+		<item name="android:textSize">12sp</item>
+	</style>
+	<style name="OverFlow" parent="@android:style/Widget.Holo.ActionButton.Overflow">
+	    <item name="android:src">@drawable/ab_overflow</item>
+	</style>
+</resources>

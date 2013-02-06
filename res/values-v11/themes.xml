@@ -2,12 +2,12 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 	
 	<style name="Mysms" parent="@android:style/Theme.Holo">
-	
+		<item name="attachmentBackgroundStyle">@style/AttachmentBackground</item>
+		<item name="attachmentImageStyle">@style/AttachmentImage</item>
 		<item name="avatarDefaultDrawable">@drawable/avatar_default</item>
 		
-		<item name="contentDividerStyle">@style/ContentDivider</item>
-		<item name="topBarStyle">@style/TopBar</item>
 		<item name="bottomBarStyle">@style/BottomBar</item>
+		<item name="contentDividerStyle">@style/ContentDivider</item>
 		
 		<item name="messageCharCounterStyle">@style/MessageCharCounter</item>
 		<item name="messageRoutingButtonStyle">@style/MessageRoutingButton</item>
@@ -22,9 +22,6 @@
 		<item name="contactListItemNumberStyle">@style/ContactListItemNumber</item>
 		
 		<item name="conversationListHeader">@style/ConversationListHeader</item>
-		<item name="conversationListNewMessageStyle">@style/ConversationListNewMessage</item>
-		<item name="conversationListFriendsStyle">@style/ConversationListFriends</item>
-		
 		<item name="conversationListItemDateStyle">@style/ConversationListItemDate</item>
 		<item name="conversationListItemDraftStyle">@style/ConversationListItemDraft</item>
 		<item name="conversationListItemNameStyle">@style/ConversationListItemName</item>
@@ -32,11 +29,15 @@
 		<item name="dialogInfoTextStyle">@style/DialogInfoText</item>
 		<item name="messageListGroupHeaderStyle">@style/MessageListGroupHeader</item>
 			
+		<item name="messageListItemDateStyle">@style/MessageListItemDate</item>
+		<item name="messageListItemIncomingDateStyle">@style/MessageListItemIncomingDate</item>
 		<item name="messageListItemTextStyle">@style/MessageListItemText</item>
-		<item name="messageListItemBubbleIncomingDrawable">@drawable/bubble_mysms_style_gray</item>
-		<item name="messageListItemBubbleOutgoingDrawable">@drawable/bubble_mysms_style_blue</item>
+		<item name="messageListItemIncomingTextStyle">@style/MessageListItemIncomingText</item>
+		<item name="messageListItemBubbleIncomingDrawable">@drawable/bubble_incoming</item>
+		<item name="messageListItemBubbleOutgoingDrawable">@drawable/bubble_outgoing</item>
 		<item name="messageListItemStatusDeliveredDrawable">@drawable/message_status_delivered</item>
-		<item name="messageListItemStatusFailedDrawable">@drawable/message_status_failed</item>
+		<item name="messageListItemStatusFailedDrawable">@drawable/sms_mms_failed</item>
+		<item name="messageListItemAddIconDrawable">@drawable/ic_misc_file</item>
 		
 		<item name="friendsInviteButtonStyle">@style/FriendsInviteButton</item>
 		<item name="friendsInviteHeaderStyle">@style/FriendsInviteHeader</item>
@@ -50,44 +51,37 @@
 		
 		<item name="messageSendButtonStyle">@style/MessageSendButton</item>
 		<item name="attachmentDrawable">@drawable/attachment</item>
-		<item name="attachmentBackgroundDrawable">@drawable/full_frame</item>
-		
-		<item name="actionBarBackground">@drawable/action_bar</item>
-		
 		<item name="newFriendIcon">@drawable/ic_new_friend</item>
 		<item name="composeIcon">@drawable/ab_compose</item>
 		<item name="friendsListIcon">@drawable/ab_friends_list</item>
+		<item name="separatorLineStyle">@style/SeparatorLine</item>
+		<item name="separatorLineAttachmentStyle">@style/SeparatorLine</item>
+		<item name="hintTextStyle">@style/HintText</item>
 		
 		<!-- enable actionbar support -->
 		<item name="usesActionBar">true</item>
+		<item name="android:homeAsUpIndicator">@drawable/ab_back</item>
 	</style>
 	
 	<style name="Mysms.ComposeMessage">
-	    <item name="topBarStyle">@style/backgroundTransparent</item>
-	    <item name="android:windowBackground">@drawable/bg_compose_message</item>
 	    <item name="dialogInfoTextStyle">@style/DialogInfoText</item>
+	    <item name="separatorLineStyle">@style/SeparatorLine</item>
 	</style>
 	<style name="Mysms.ContactList" />
 	<style name="Mysms.ConversationList" />
-	<style name="Mysms.MessageList" />
-	<style name="Mysms.MessageList.Bubble">
-		<item name="messageListGroupHeaderStyle">@style/MessageListGroupHeader.Bubble</item>
-		<item name="messageListItemTextStyle">@style/MessageListItemText.Bubble</item>
-		
-		<item name="android:windowBackground">@android:color/transparent</item>
-		<item name="android:windowShowWallpaper">true</item>
-		<item name="android:listViewStyle">@style/Widget.ListView.MessageList.Bubble</item>
+	<style name="Mysms.GroupCreate">
+		<item name="bottomBarStyle">@style/BottomBar</item>
 	</style>
 	
 	<style name="Mysms.Dialog" parent="@android:style/Theme.Holo.Dialog">
 		<item name="avatarDefaultDrawable">@drawable/avatar_default</item>
-		
 		<item name="contentDividerStyle">@style/ContentDivider</item>
-		<item name="topBarStyle">@style/backgroundTransparent</item>
-		<item name="bottomBarStyle">@style/backgroundTransparent</item>
-		
+		<item name="topBarStyle">@android:color/transparent</item>
+		<item name="bottomBarStyle">@style/BottomBar</item>
+		<item name="separatorLineStyle">@style/SeparatorLine</item>
 		<item name="messageCharCounterStyle">@style/MessageCharCounter</item>
 		<item name="messageRoutingButtonStyle">@style/MessageRoutingButton</item>
+		<item name="hintTextStyle">@style/HintText</item>
 		
 		<item name="recipientsToTextStyle">@style/RecipientsToText</item>
 		<item name="recipientsAddButtonStyle">@style/RecipientsAddButton</item>
@@ -98,13 +92,15 @@
 	</style>
 	
 	<style name="Mysms.Dialog.NotifyPopup">
+	    <item name="bottomBarStyle">@style/NotifyComposeBackground</item>
+	    <item name="attachmentBackgroundStyle">@style/AttachmentBackground</item>
+		<item name="attachmentImageStyle">@style/AttachmentImage</item>
 		<item name="notifyPopupNameStyle">@style/NotifyPopupName</item>
 		<item name="notifyPopupDateStyle">@style/NotifyPopupDate</item>
 		<item name="notifyPopupTextStyle">@style/NotifyPopupText</item>
 		<item name="notifyPopupUnreadStyle">@style/NotifyPopupUnread</item>
-		
+		<item name="hintTextStyle">@style/HintText</item>
 		<item name="attachmentDrawable">@drawable/attachment</item>
-		<item name="attachmentBackgroundDrawable">@drawable/full_frame</item>
 	</style>
 	
 	<style name="Mysms.Popup">

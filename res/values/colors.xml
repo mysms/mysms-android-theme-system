@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <color name="foreground_text">#ffffffff</color>
-  <color name="foreground_dim_text">#ffcccccc</color>
-  <color name="foreground_inverse_text">#ff4f4f4f</color>
-  <color name="blue_text">#1775ab</color>
+	<color name="foreground_text">#ffffffff</color>
+	<color name="foreground_dim_text">#ffcccccc</color>
+	<color name="foreground_inverse_text">#ff4f4f4f</color>
+	<color name="foreground_darker_text">#bebebe</color>
+	<color name="blue_text">#1775ab</color>
+	<color name="separator_line">#7a7f83</color>
+	<color name="separator_line_attachment">#32ffffff</color>
+	<color name="message_list_incoming_text">#cccccc</color>
+	<color name="message_list_incoming_date">#808080</color>
+	<color name="message_list_text">#ffffff</color>
+	<color name="message_list_outgoing_date">#999999</color>
+	<color name="message_list_item_date">#69ffffff</color>
+	<color name="attachment_image">#43484c</color>
+	<color name="notify_compose_background">#10000000</color>
 </resources>
