@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
+	<style name="ActionBarTitle" parent="@android:style/TextAppearance.Medium">
+		<item name="android:textColor">#fff</item>
+	</style>
+	<style name="ActionBarSubTitle" parent="@android:style/TextAppearance.Small">
+		<item name="android:textColor">#a9ffffff</item>
+		<item name="android:textSize">12sp</item>
+	</style>
+	<style name="ActionBarLayout" parent="@android:style/TextAppearance.Small">
+		<item name="android:background">@android:color/transparent</item>
+	</style>
 	<style name="AttachmentBackground">
 		<item name="android:background">@android:color/transparent</item>
 	</style>
@@ -58,7 +68,7 @@
 		<item name="android:textSize">13sp</item>
 	</style>
 
-	<style name="ConversationListHeader">
+	<style name="HeaderBar">
 		<item name="android:background">@drawable/action_bar</item>
 		<item name="android:paddingLeft">12dp</item>
 		<item name="android:minHeight">48dp</item>

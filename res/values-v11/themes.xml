@@ -4,7 +4,7 @@
 	<style name="Mysms" parent="@android:style/Theme.Holo">
 		<item name="attachmentBackgroundStyle">@style/AttachmentBackground</item>
 		<item name="attachmentImageStyle">@style/AttachmentImage</item>
-		<item name="avatarDefaultDrawable">@drawable/avatar_default</item>
+		<item name="avatarDefaultDrawable">@drawable/ic_contact_picture</item>
 		
 		<item name="bottomBarStyle">@style/BottomBar</item>
 		<item name="contentDividerStyle">@style/ContentDivider</item>
@@ -21,7 +21,7 @@
 		<item name="contactListItemNameStyle">@style/ContactListItemName</item>
 		<item name="contactListItemNumberStyle">@style/ContactListItemNumber</item>
 		
-		<item name="conversationListHeader">@style/ConversationListHeader</item>
+		<item name="headerBarStyle">@style/HeaderBar</item>
 		<item name="conversationListItemDateStyle">@style/ConversationListItemDate</item>
 		<item name="conversationListItemDraftStyle">@style/ConversationListItemDraft</item>
 		<item name="conversationListItemNameStyle">@style/ConversationListItemName</item>
@@ -61,6 +61,7 @@
 		<!-- enable actionbar support -->
 		<item name="usesActionBar">true</item>
 		<item name="android:homeAsUpIndicator">@drawable/ab_back</item>
+		
 	</style>
 	
 	<style name="Mysms.ComposeMessage">
@@ -74,7 +75,7 @@
 	</style>
 	
 	<style name="Mysms.Dialog" parent="@android:style/Theme.Holo.Dialog">
-		<item name="avatarDefaultDrawable">@drawable/avatar_default</item>
+		<item name="avatarDefaultDrawable">@drawable/ic_contact_picture</item>
 		<item name="contentDividerStyle">@style/ContentDivider</item>
 		<item name="topBarStyle">@android:color/transparent</item>
 		<item name="bottomBarStyle">@style/BottomBar</item>

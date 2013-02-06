@@ -3,7 +3,7 @@
 	<style name="Mysms" parent="@android:style/Theme">
 		<item name="attachmentBackgroundStyle">@style/AttachmentBackground</item>
 		<item name="attachmentImageStyle">@style/AttachmentImage</item>
-		<item name="avatarDefaultDrawable">@drawable/avatar_default</item>
+		<item name="avatarDefaultDrawable">@drawable/ic_contact_picture</item>
 		<item name="bottomBarStyle">@style/BottomBar</item>
 		<item name="contentDividerStyle">@style/ContentDivider</item>
 
@@ -20,7 +20,7 @@
 		<item name="contactListItemNameStyle">@style/ContactListItemName</item>
 		<item name="contactListItemNumberStyle">@style/ContactListItemNumber</item>
 	
-		<item name="conversationListHeader">@style/ConversationListHeader</item>
+		<item name="headerBarStyle">@style/HeaderBar</item>
 		<item name="conversationListItemDateStyle">@style/ConversationListItemDate</item>
 		<item name="conversationListItemDraftStyle">@style/ConversationListItemDraft</item>
 		<item name="conversationListItemNameStyle">@style/ConversationListItemName</item>
@@ -58,9 +58,11 @@
 		<item name="separatorLineStyle">@style/SeparatorLine</item>
 		<item name="separatorLineAttachmentStyle">@style/SeparatorLineAttachment</item>
 		<item name="hintTextStyle">@style/HintText</item>
-			
-		<!-- Widget styles -->
-		<item name="android:editTextStyle">@style/Widget.EditText</item>
+		
+		<!-- items for headerBar -->
+		<item name="actionBarTitleStyle">@style/ActionBarTitle</item>
+		<item name="actionBarSubTitleStyle">@style/ActionBarSubTitle</item>
+		<item name="actionBarLayoutStyle">@style/ActionBarLayout</item>
 	</style>
 	
 	<style name="Mysms.ComposeMessage">
@@ -68,6 +70,10 @@
 		<item name="android:windowBackground">@drawable/bg_compose_message</item>
 		<item name="separatorLineStyle">@style/SeparatorLine</item>
 		<item name="hintTextStyle">@style/HintText</item>
+		
+		<!-- items for headerBar -->
+		<item name="actionBarTitleStyle">@style/ActionBarTitle</item>
+		<item name="actionBarLayoutStyle">@style/ActionBarLayout</item>
 	</style>
 	<style name="Mysms.GroupCreate" />
 	<style name="Mysms.ContactList" />
@@ -76,7 +82,7 @@
 	<style name="Mysms.MessageList.Bubble"/>
 	
 	<style name="Mysms.Dialog" parent="@android:style/Theme.Dialog">
-		<item name="avatarDefaultDrawable">@drawable/avatar_default</item>
+		<item name="avatarDefaultDrawable">@drawable/ic_contact_picture</item>
 		<item name="contentDividerStyle">@style/ContentDivider</item>
 		<item name="topBarStyle">@style/TopBar</item>
 		<item name="bottomBarStyle">@style/BottomBar</item>

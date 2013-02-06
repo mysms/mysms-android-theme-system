@@ -74,7 +74,6 @@
 	
 	<attr name="newFriendIcon" format="reference" />
 	
-	<attr name="conversationListHeader" format="reference" />
 	<attr name="composeIcon" format="reference" />
 	<attr name="friendsListIcon" format="reference" />
 	<attr name="dialogInfoTextStyle" format="reference" />
@@ -95,6 +94,10 @@
 	
 	<attr name="separatorLineAttachmentStyle" format="reference" />
 	<attr name="messageListItemAddIconDrawable" format="reference" />
+	<attr name="actionBarTitleStyle" format="reference" />
+	<attr name="actionBarSubTitleStyle" format="reference" />
+	<attr name="actionBarLayoutStyle" format="reference" />
+	<attr name="headerBarStyle" format="reference" />
 	<!-- Theme Resources End -->
 	
 	<!-- Theme Styleables Start -->
@@ -168,15 +171,6 @@
 		<attr name="android:textColor" />
 		<attr name="android:textSize" />
 		<attr name="android:textStyle" />
-	</declare-styleable>
-	
-	<declare-styleable name="conversationListHeader">
-		<attr name="android:background" />
-		<attr name="android:padding" />
-		<attr name="android:paddingLeft" />
-		<attr name="android:paddingRight" />
-		<attr name="android:paddingTop" />
-		<attr name="android:paddingBottom" />
 	</declare-styleable>
 	
 	<declare-styleable name="conversationListNewMessage">
@@ -403,7 +397,22 @@
 	<declare-styleable name="attachmentBackground">
 		<attr name="android:background" />
 	</declare-styleable>
-	
+	<declare-styleable name="actionBarTitle">
+		<attr name="android:textColor" />
+		<attr name="android:textSize" />
+		<attr name="android:textStyle" />
+	</declare-styleable>
+	<declare-styleable name="actionBarLayout">
+		<attr name="android:background" />
+	</declare-styleable>
+	<declare-styleable name="headerBar">
+		<attr name="android:background" />
+		<attr name="android:padding" />
+		<attr name="android:paddingLeft" />
+		<attr name="android:paddingRight" />
+		<attr name="android:paddingTop" />
+		<attr name="android:paddingBottom" />
+	</declare-styleable>
 	<!-- Theme Styleables End -->
 	
 
