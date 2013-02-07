@@ -14,4 +14,5 @@
 	<color name="message_list_item_date">#69ffffff</color>
 	<color name="attachment_image">#43484c</color>
 	<color name="notify_compose_background">#10000000</color>
+	<color name="actionbar_selectable">#7a33B5E5</color>
 </resources>

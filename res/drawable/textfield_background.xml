@@ -2,5 +2,5 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_focused="true"
         android:drawable="@drawable/textfield_activated_holo_light" />
-    <item android:drawable="@drawable/textfield_default_holo_light" />
+    <item android:drawable="@drawable/textfield_default_holo_dark" />
 </selector>
