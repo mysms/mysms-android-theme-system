@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
 	<!-- Theme Resources Start (don't reorder, don't insert or delete, only append) -->
 	
 	<attr name="avatarDefaultDrawable" format="reference" />
@@ -74,16 +73,11 @@
 	
 	<attr name="newFriendIcon" format="reference" />
 	
-	<attr name="composeIcon" format="reference" />
-	<attr name="friendsListIcon" format="reference" />
-	<attr name="dialogInfoTextStyle" format="reference" />
-	<attr name="groupsInviteIcon" format="reference" />
-	<attr name="groupsNewIcon" format="reference" />
+	<attr name="infoTextStyle" format="reference" />
 	
 	<attr name="headerIcon" format="reference" />
 	<attr name="messageEditorBackgroundStyle" format="reference" />
 	<attr name="separatorLineStyle" format="reference" />
-	<attr name="hintTextStyle" format="reference" />
 	<attr name="attachmentBackgroundStyle" format="reference" />
 	<attr name="attachmentImageStyle" format="reference" />
 	<attr name="actionbarSelectableStyle" format="reference" />
@@ -100,6 +94,39 @@
 	<attr name="headerBarStyle" format="reference" />
 	<attr name="avatarGroupDrawable" format="reference" />
 	<attr name="contactListItemTypeStyle" format="reference" />
-	<attr name="hintArrowDrawable" format="reference" />
+	<attr name="cancelButtonStyle" format="reference" />
+	<attr name="friendsIndicatorStyle" format="reference" />
+	<attr name="messageListItemLockedDrawable" format="reference" />
+	<attr name="messageListItemIncomingAddIconDrawable" format="reference" />
+	<attr name="tabIndicatorStyle" format="reference" />
+	<attr name="hasTabBarStyle" format="boolean" />
+	<attr name="attachmentAddIconDrawable" format="reference" />
+	<attr name="recipientsEditorPopUpStyle" format="reference" />
+	
+	<attr name="headerBarAttachmentAddIconDrawable" format="reference" />
+	<attr name="headerBarInviteDrawable" format="reference" />
+	<attr name="headerBarComposeIconDrawable" format="reference" />
+	<attr name="headerBarFriendsListIconDrawable" format="reference" />
+	<attr name="headerBarGroupsInviteIconDrawable" format="reference" />
+	<attr name="headerBarGroupsNewIconDrawable" format="reference" />
+	
+	<attr name="preferenceListItemTitleStyle" format="reference" />
+	<attr name="preferenceListItemSummaryStyle" format="reference" />
+	<attr name="alertDialogTitleStyle" format="reference" />
+	<attr name="alertDialogDividerStyle" format="reference" />
+	<attr name="attachmentAddDialogIconDrawable" format="reference" />
+	<attr name="imageButtonDialogStyle" format="reference" />
+	<attr name="windowBackgroundImageStyle" format="reference" />
+	<attr name="dialogTopStyle" format="reference" />
+	<attr name="dialogBottomStyle" format="reference" />
+	<attr name="alertDialogDrawable" format="reference" />
+	<attr name="listDividerDrawable" format="reference" />
+	<attr name="listSelectorDrawable" format="reference" />
+	<attr name="listSelectedDrawable" format="reference" />
+	<attr name="notifyPopupBackgroundStyle" format="reference" />
+	<attr name="notifyPopupItemUnreadStyle" format="reference" />
+	<attr name="emojiKeyboardIconDrawable" format="reference" />
+	<attr name="emojiKeyboardCloseDrawable" format="reference" />
+	<attr name="emojiSmileyButtonDrawable" format="reference" />
 	<!-- Theme Resources End -->
 </resources>

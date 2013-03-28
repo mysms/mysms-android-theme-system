@@ -7,7 +7,6 @@
 		<item name="avatarGroupDrawable">@drawable/ic_contact_group_picture</item>
 		<item name="bottomBarStyle">@style/BottomBar</item>
 		<item name="contentDividerStyle">@style/ContentDivider</item>
-
 		
 		<item name="messageCharCounterStyle">@style/MessageCharCounter</item>
 		<item name="messageRoutingButtonStyle">@style/MessageRoutingButton</item>
@@ -26,6 +25,10 @@
 		<item name="conversationListItemNameStyle">@style/ConversationListItemName</item>
 		<item name="conversationListItemSnippetStyle">@style/ConversationListItemSnippet</item>
 		
+		<item name="emojiKeyboardIconDrawable">@drawable/keyboard_icon</item>
+		<item name="emojiKeyboardCloseDrawable">@drawable/keyboard_close</item>
+		<item name="emojiSmileyButtonDrawable">@drawable/smiley_button</item>
+		
 		<item name="messageListGroupHeaderStyle">@style/MessageListGroupHeader</item>
 			
 		<item name="messageListItemDateStyle">@style/MessageListItemDate</item>
@@ -36,7 +39,15 @@
 		<item name="messageListItemBubbleOutgoingDrawable">@drawable/bubble_outgoing</item>
 		<item name="messageListItemStatusDeliveredDrawable">@drawable/message_status_delivered</item>
 		<item name="messageListItemStatusFailedDrawable">@drawable/sms_mms_failed</item>
+		<item name="messageEditorBackgroundStyle">@style/MessageEditorBackground</item>
 		<item name="messageListItemAddIconDrawable">@drawable/ic_misc_file</item>
+		<item name="messageListItemIncomingAddIconDrawable">@drawable/ic_misc_file</item>
+		
+		<item name="notifyPopupNameStyle">@style/NotifyPopupName</item>
+		<item name="notifyPopupDateStyle">@style/NotifyPopupDate</item>
+		<item name="notifyPopupTextStyle">@style/NotifyPopupText</item>
+		<item name="notifyPopupUnreadStyle">@style/NotifyPopupUnread</item>
+		<item name="notifyPopupItemUnreadStyle">@style/NotifyPopupItemUnread</item>
 		
 		<item name="friendsInviteButtonStyle">@style/FriendsInviteButton</item>
 		<item name="friendsInviteHeaderStyle">@style/FriendsInviteHeader</item>
@@ -47,18 +58,15 @@
 		<item name="friendsListInfoStyle">@style/FriendsListInfo</item>
 		
 		<item name="dialogHeaderStyle">@style/DialogHeader</item>
-		
+		<item name="infoTextStyle">@style/InfoText</item>
+		 
 		<item name="messageSendButtonStyle">@style/MessageSendButton</item>
 		<item name="attachmentDrawable">@drawable/attachment</item>
 		
-		<item name="composeIcon">@drawable/ab_compose</item>
-		<item name="friendsListIcon">@drawable/ab_friends_list</item>
-		<item name="groupsInviteIcon">@drawable/ab_invite_friends</item>
-		<item name="groupsNewIcon">@drawable/ab_groups_add</item>
+		<item name="cancelButtonStyle">@style/CancelButton</item>
 		<item name="separatorLineStyle">@style/SeparatorLine</item>
 		<item name="separatorLineAttachmentStyle">@style/SeparatorLineAttachment</item>
-		<item name="hintTextStyle">@style/HintText</item>
-		<item name="hintArrowDrawable">@drawable/hint_arrow</item>
+		<item name="attachmentAddIconDrawable">@drawable/ab_add_attachment</item>
 		
 		<!-- items for headerBar -->
 		<item name="headerBarStyle">@style/HeaderBar</item>
@@ -67,17 +75,24 @@
 		<item name="actionBarLayoutStyle">@style/ActionBarLayout</item>
 		<item name="actionbarSelectableStyle">@style/ActionbarSelectable</item>
 		<item name="headerIcon">@drawable/app_icon_white</item>
+		<item name="headerBarAttachmentAddIconDrawable">@drawable/ab_add_attachment</item>
+		<item name="headerBarInviteDrawable">@drawable/ic_new_friend</item>
+		<item name="headerBarComposeIconDrawable">@drawable/ab_compose</item>
+		<item name="headerBarFriendsListIconDrawable">@drawable/ab_friends_list</item>
+		<item name="headerBarGroupsInviteIconDrawable">@drawable/ab_invite_friends</item>
+		<item name="headerBarGroupsNewIconDrawable">@drawable/ab_groups_add</item>
 		
-		<!-- Widget styles -->
 		<item name="messageEditorStyle">@style/EditText</item>
+		
+		<!-- Settings -->
+		<item name="hasTabBarStyle">false</item>
 	</style>
 	
 	<style name="Mysms.ComposeMessage">
 	    <item name="topBarStyle">@android:color/transparent</item>
-		<item name="android:windowBackground">@drawable/bg_compose_message</item>
+		<item name="android:windowBackground">@drawable/window_background</item>
 		<item name="separatorLineStyle">@style/SeparatorLine</item>
-		<item name="hintTextStyle">@style/HintText</item>
-		<item name="hintArrowDrawable">@drawable/hint_arrow</item>
+		<item name="recipientsEditorPopUpStyle">@style/RecipientsEditorPopUp</item>
 		
 		<!-- items for headerBar -->
 		<item name="actionBarTitleStyle">@style/ActionBarTitle</item>
@@ -91,54 +106,78 @@
 	<style name="Mysms.ConversationList">
 		<item name="headerIcon">@drawable/logo</item>
 	</style>
+	<style name="Mysms.ProductTour">
+		<item name="headerIcon">@drawable/logo</item>
+		<item name="windowBackgroundImageStyle">@style/WindowBackground</item>
+	</style>
 	<style name="Mysms.MessageList" />
 	<style name="Mysms.MessageList.Bubble"/>
 	
 	<style name="Mysms.Dialog" parent="@android:style/Theme.Dialog">
 		<item name="avatarDefaultDrawable">@drawable/ic_contact_picture</item>
 		<item name="avatarGroupDrawable">@drawable/ic_contact_group_picture</item>
-		<item name="contentDividerStyle">@style/ContentDivider</item>
-		<item name="topBarStyle">@style/TopBar</item>
+
 		<item name="bottomBarStyle">@style/BottomBar</item>
-		<item name="separatorLineStyle">@style/SeparatorLine</item>
-		
-		<item name="messageCharCounterStyle">@style/MessageCharCounter</item>
-		<item name="messageRoutingButtonStyle">@style/MessageRoutingButton</item>
 		
 		<item name="contactListGroupItemStyle">@style/ContactListGroupItem</item>
 		<item name="contactListGroupItemBackgroundStyle">@style/ContactListGroupItemBackground</item>
-		
 		<item name="contactListItemNameStyle">@style/ContactListItemName</item>
 		<item name="contactListItemNumberStyle">@style/ContactListItemNumber</item>
-		
-		<item name="hintTextStyle">@style/HintText</item>
-		<item name="hintArrowDrawable">@drawable/hint_arrow</item>
-		
-		<item name="recipientsToTextStyle">@style/RecipientsToText</item>
-		<item name="recipientsAddButtonStyle">@style/RecipientsAddButton</item>
+		<item name="contactListItemTypeStyle">@style/ContactListItemType</item>
+		<item name="contentDividerStyle">@style/ContentDivider</item>
 		
 		<item name="dialogHeaderStyle">@style/DialogHeader</item>
-		
-		<item name="messageSendButtonStyle">@style/MessageSendButton</item>
+		<item name="infoTextStyle">@style/InfoText</item>
 		
 		<item name="friendsListItemNameStyle">@style/FriendsListItemName</item>
 		<item name="friendsListItemMsisdnStyle">@style/FriendsListItemMsisdn</item>
 		<item name="friendsListInfoStyle">@style/FriendsListInfo</item>
+		
+		
+		<item name="imageButtonDialogStyle">@style/ImageButtonDialog</item>
+
+		<item name="messageCharCounterStyle">@style/MessageCharCounter</item>
+		<item name="messageRoutingButtonStyle">@style/MessageRoutingButton</item>
+		<item name="messageSendButtonStyle">@style/MessageSendButton</item>
+		<item name="messageEditorStyle">@style/EditText</item>
+		
+		<item name="recipientsToTextStyle">@style/RecipientsToText</item>
+		<item name="recipientsAddButtonStyle">@style/RecipientsAddButton</item>
+		
+		<item name="separatorLineStyle">@style/SeparatorLine</item>
+
+		<item name="topBarStyle">@style/TopBar</item>
+		<item name="android:windowBackground">@drawable/popup_full</item>
 	</style>
 	
 	<style name="Mysms.Dialog.ComposeMessage">
-	    <item name="android:windowBackground">@drawable/bg_compose_message</item>
+	    <item name="android:windowBackground">@drawable/window_background</item>
 	</style>
 	<style name="Mysms.Dialog.NotifyPopup">
-	    <item name="bottomBarStyle">@style/NotifyComposeBackground</item>
 	    <item name="attachmentBackgroundStyle">@style/AttachmentBackground</item>
 		<item name="attachmentImageStyle">@style/AttachmentImage</item>
+		<item name="actionBarBackground">@drawable/action_bar</item>
+		<item name="actionBarTitleStyle">@style/ActionBarTitle</item>
+		<item name="actionBarLayoutStyle">@style/ActionBarLayout</item>
+		<item name="actionbarSelectableStyle">@style/ActionbarSelectable</item>
+		
+		<item name="bottomBarStyle">@style/NotifyComposeBackground</item>		
+		
+		<item name="emojiKeyboardIconDrawable">@drawable/keyboard_icon</item>
+		<item name="emojiKeyboardCloseDrawable">@drawable/keyboard_close</item>
+		<item name="emojiSmileyButtonDrawable">@drawable/smiley_button</item>
+		
+		<item name="headerBarStyle">@style/HeaderBar</item>
+		<item name="headerIcon">@drawable/app_icon_white</item>
 		<item name="notifyPopupNameStyle">@style/NotifyPopupName</item>
 		<item name="notifyPopupDateStyle">@style/NotifyPopupDate</item>
 		<item name="notifyPopupTextStyle">@style/NotifyPopupText</item>
 		<item name="notifyPopupUnreadStyle">@style/NotifyPopupUnread</item>
 		
+		<item name="notifyPopupBackgroundStyle">@style/NotifyPopupBackground</item>
+		
 		<item name="attachmentDrawable">@drawable/attachment</item>
+		<item name="android:windowBackground">@android:color/transparent</item>
 	</style>
 	
 	<style name="Mysms.Popup">
