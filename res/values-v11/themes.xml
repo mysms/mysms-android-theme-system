@@ -148,6 +148,9 @@
 		<item name="notifyPopupTextStyle">@style/NotifyPopupText</item>
 		<item name="notifyPopupUnreadStyle">@style/NotifyPopupUnread</item>
 		<item name="attachmentDrawable">@drawable/attachment</item>
+		
+		<item name="notifyPopupBackgroundStyle">@style/NotifyPopupBackground</item>
+		<item name="android:windowBackground">@android:color/transparent</item>
 	</style>
 	
 	<style name="Mysms.Popup">
@@ -155,12 +158,6 @@
 
 	<style name="Mysms.Dialog.ComposeMessage">
 	</style>
-		
-	<style name="Mysms.Dialog.NotifyPopup">
-	    <item name="notifyPopupBackgroundStyle">@style/NotifyPopupBackground</item>
-		<item name="android:windowBackground">@android:color/transparent</item>
-	</style>
-
 	<style name="Mysms.MessageList">
 	</style>
 	
