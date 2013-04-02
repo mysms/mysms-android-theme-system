@@ -38,7 +38,9 @@
 	<style name="TopBar">
 		 <item name="android:background">@android:color/background_dark</item>
 	</style>
-
+	<style name="TopBarCompose">
+		 <item name="android:background">@color/topbar_background_color</item>
+	</style>
 	<style name="BottomBar">
 		 <item name="android:background">@color/attachment_image</item>
 	</style>

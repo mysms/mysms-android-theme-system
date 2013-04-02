@@ -89,7 +89,7 @@
 	</style>
 	
 	<style name="Mysms.ComposeMessage">
-	    <item name="topBarStyle">@android:color/transparent</item>
+	    <item name="topBarStyle">@style/TopBarCompose</item>
 		<item name="android:windowBackground">@drawable/window_background</item>
 		<item name="separatorLineStyle">@style/SeparatorLine</item>
 		<item name="recipientsEditorPopUpStyle">@style/RecipientsEditorPopUp</item>

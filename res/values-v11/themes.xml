@@ -76,6 +76,7 @@
 	</style>
 	
 	<style name="Mysms.ComposeMessage">
+	    <item name="topBarStyle">@style/TopBarCompose</item>
 	    <item name="infoTextStyle">@style/InfoText</item>
 	    <item name="separatorLineStyle">@style/SeparatorLine</item>
 	</style>

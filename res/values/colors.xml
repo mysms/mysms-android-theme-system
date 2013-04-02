@@ -22,4 +22,6 @@
 
 	<color name="separator_line">#7a7f83</color>
 	<color name="separator_line_attachment">#32ffffff</color>
+	
+	<color name="topbar_background_color">#2032b2e1</color>
 </resources>
