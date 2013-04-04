@@ -46,7 +46,7 @@
 	</style>
 	
 	<style name="MessageCharCounter">
-		<item name="android:textSize">11sp</item>
+		<item name="android:textSize">10sp</item>
 	</style>
 	
 	<style name="MessageRoutingButton">
@@ -191,6 +191,8 @@
 	
 	<style name="MessageSendButton">
 	    <item name="android:textColor">#ffffff</item>
+	    <item name="android:layout_marginLeft">8dp</item>
+      <item name="android:layout_marginRight">8dp</item>
 	</style>
 	
 	<style name="NotifyPopupName">
