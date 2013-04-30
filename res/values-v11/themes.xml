@@ -30,9 +30,12 @@
 		<item name="conversationListItemDraftStyle">@style/ConversationListItemDraft</item>
 		<item name="conversationListItemNameStyle">@style/ConversationListItemName</item>
 		<item name="conversationListItemSnippetStyle">@style/ConversationListItemSnippet</item>
+		
 		<item name="infoTextStyle">@style/InfoText</item>
+		<item name="inviteFriendsTextStyle">@style/InviteFriendsText</item>
+		<item name="inviteFriendsBackgroundStyle">@style/InviteFriendsBackground</item>
+		
 		<item name="messageListGroupHeaderStyle">@style/MessageListGroupHeader</item>
-			
 		<item name="messageListItemDateStyle">@style/MessageListItemDate</item>
 		<item name="messageListItemIncomingDateStyle">@style/MessageListItemIncomingDate</item>
 		<item name="messageListItemTextStyle">@style/MessageListItemText</item>
@@ -152,7 +155,7 @@
 		
 		<item name="notifyPopupBackgroundStyle">@style/NotifyPopupBackground</item>
 		
-		<item name="android:windowBackground">@drawable/notify_pupup_window_background</item>
+		<item name="android:windowBackground">@drawable/notify_popup_window_background</item>
 		<item name="android:windowIsFloating">false</item>
 	    <item name="android:windowNoTitle">true</item>
 	    <item name="android:windowIsTranslucent">true</item>

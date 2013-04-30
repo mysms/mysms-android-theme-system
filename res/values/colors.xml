@@ -11,6 +11,8 @@
 	<color name="foreground_inverse_text">#ff4f4f4f</color>
 	<color name="foreground_darker_text">#bebebe</color>
 	
+	<color name="invite_friends_background_color">#3e3e3e</color>
+	
 	<color name="message_list_incoming_text">#cccccc</color>
 	<color name="message_list_incoming_date">#808080</color>
 	<color name="message_list_text">#ffffff</color>

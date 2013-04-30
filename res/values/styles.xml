@@ -35,6 +35,12 @@
 		<item name="android:textColor">@color/foreground_text</item>
 		<item name="android:background">@drawable/image_button_dialog</item>
 	</style>
+	<style name="InviteFriendsText">
+		<item name="android:textColor">@android:color/white</item>
+	</style>
+	<style name="InviteFriendsBackground">
+		<item name="android:background">@color/invite_friends_background_color</item>
+	</style>
 	<style name="TopBar">
 		 <item name="android:background">@android:color/background_dark</item>
 	</style>
@@ -151,7 +157,7 @@
 		<item name="android:background">@color/notify_compose_background</item>
 	</style>
 	<style name="NotifyPopupBackground">
-	    <item name="android:background">@drawable/dialog_full_holo_dark</item>
+	    <item name="android:background">@drawable/dialog_full_holo_dark_popup</item>
 	</style>
 	<style name="NotifyPopupItemUnread">
 		<item name="android:textColor">@android:color/white</item>

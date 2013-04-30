@@ -29,6 +29,9 @@
 		<item name="emojiKeyboardCloseDrawable">@drawable/keyboard_close</item>
 		<item name="emojiSmileyButtonDrawable">@drawable/smiley_button</item>
 		
+		<item name="inviteFriendsTextStyle">@style/InviteFriendsText</item>
+		<item name="inviteFriendsBackgroundStyle">@style/InviteFriendsBackground</item>
+		
 		<item name="messageListGroupHeaderStyle">@style/MessageListGroupHeader</item>
 			
 		<item name="messageListItemDateStyle">@style/MessageListItemDate</item>
@@ -178,7 +181,7 @@
 		
 		<item name="attachmentDrawable">@drawable/attachment</item>
 		
-		<item name="android:windowBackground">@drawable/notify_pupup_window_background</item>
+		<item name="android:windowBackground">@drawable/notify_popup_window_background</item>
 		<item name="android:windowIsFloating">false</item>
 	    <item name="android:windowNoTitle">true</item>
 	    <item name="android:windowIsTranslucent">true</item>
