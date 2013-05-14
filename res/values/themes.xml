@@ -24,6 +24,7 @@
 		<item name="conversationListItemDraftStyle">@style/ConversationListItemDraft</item>
 		<item name="conversationListItemNameStyle">@style/ConversationListItemName</item>
 		<item name="conversationListItemSnippetStyle">@style/ConversationListItemSnippet</item>
+		<item name="chooserListItemTextStyle">@style/ChooserListItemText</item>
 		
 		<item name="emojiKeyboardIconDrawable">@drawable/keyboard_icon</item>
 		<item name="emojiKeyboardCloseDrawable">@drawable/keyboard_close</item>
@@ -128,6 +129,7 @@
 		<item name="contactListItemNumberStyle">@style/ContactListItemNumber</item>
 		<item name="contactListItemTypeStyle">@style/ContactListItemType</item>
 		<item name="contentDividerStyle">@style/ContentDivider</item>
+		<item name="chooserListItemMessageDrawable">@drawable/message_error</item>
 		
 		<item name="dialogHeaderStyle">@style/DialogHeader</item>
 		<item name="infoTextStyle">@style/InfoText</item>

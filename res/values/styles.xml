@@ -30,6 +30,9 @@
 		<item name="android:minHeight">36dp</item>
 		<item name="android:minWidth">36dp</item>
 	</style>
+	<style name="ChooserListItemText">
+    	<item name="android:textColor">@color/list_item_text</item>
+    </style>
 	<style name="ImageButtonDialog">
 		<item name="android:textSize">15sp</item>
 		<item name="android:textColor">@color/foreground_text</item>
