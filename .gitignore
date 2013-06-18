@@ -2,3 +2,5 @@
 /gen
 /release
 /local.properties
+/.gradle
+/build

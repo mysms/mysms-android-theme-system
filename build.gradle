@@ -1,0 +1,79 @@
+apply plugin: 'android'
+apply plugin: 'maven'
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:0.4.2'
+    }
+}
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
+
+android {
+    compileSdkVersion 17
+    buildToolsVersion '17'
+
+    defaultConfig {
+        versionName '2.2-SNAPSHOT'
+        versionCode 14
+        
+        minSdkVersion 5
+        targetSdkVersion 17
+    }
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            res.srcDirs = ['res']
+        }
+
+        instrumentTest.setRoot('tests')
+    }
+    signingConfigs {
+        release
+    }
+  
+    if (project.hasProperty('storeFile')) {
+        android.signingConfigs.release.storeFile = file(storeFile)
+        android.signingConfigs.release.storePassword = storePassword
+        android.signingConfigs.release.keyAlias = keyAlias
+        android.signingConfigs.release.keyPassword = keyPassword
+    } else {
+        buildTypes.release.signingConfig = null
+    }
+
+    productFlavors {
+        play {}
+        amazon {} 
+    }
+
+    dependencies {
+        compile 'com.mysms.android:mysms-android-theme-base:1.0'
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+        }
+        applicationVariants.each { variant ->
+            def apk = variant.packageApplication.outputFile;
+            def newName = apk.name.replace(".apk", "-" + defaultConfig.versionName + ".apk").replace("-" + variant.buildType.name, "");
+
+            if (variant.zipAlign) {
+                variant.packageApplication.outputFile = new File(apk.parentFile, newName);
+                variant.zipAlign.outputFile = new File(apk.parentFile, newName.replace("-unaligned", ""));
+            } else {
+	              variant.packageApplication.outputFile = new File(apk.parentFile, newName.replace("-unaligned", ""));
+            }
+        }
+    }
+}
+ 
+tasks.withType(Compile) {
+    options.encoding = "UTF-8"
+}
