@@ -62,7 +62,7 @@ android {
         }
         applicationVariants.each { variant ->
             def apk = variant.packageApplication.outputFile;
-            def newName = apk.name.replace(".apk", "-" + defaultConfig.versionName + ".apk").replace("-" + variant.buildType.name, "");
+            def newName = "mysms-android-theme-system-" + variant.baseName.replace("-release", "") + "-" + defaultConfig.versionName + (apk.name.contains("-unaligned") ? "-unaligned" : "") + ".apk";
 
             if (variant.zipAlign) {
                 variant.packageApplication.outputFile = new File(apk.parentFile, newName);
