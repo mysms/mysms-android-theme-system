@@ -75,6 +75,13 @@
 		<item name="separatorLineStyle">@style/SeparatorLine</item>
 		<item name="separatorLineAttachmentStyle">@style/SeparatorLine</item>
 		<item name="headerBarAttachmentAddIconDrawable">@drawable/ab_add_attachment</item>
+
+		<item name="typingDrawable">@drawable/typing_dot_white</item>
+
+		<item name="titleIndicatorTextColor">#737680</item>
+		<item name="titleIndicatorBackgroundColor">#1c1d1f</item>
+		<item name="titleIndicatorCounterTextColor">#1c1d1f</item>
+		<item name="titleIndicatorCounterBackgroundColor">#737680</item>
 		
 		<!-- enable actionbar support -->
 		<item name="usesActionBar">true</item>

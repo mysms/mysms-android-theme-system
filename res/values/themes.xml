@@ -87,6 +87,13 @@
 		<item name="headerBarGroupsNewIconDrawable">@drawable/ab_groups_add</item>
 		
 		<item name="messageEditorStyle">@style/EditText</item>
+
+		<item name="typingDrawable">@drawable/typing_dot_white</item>
+
+		<item name="titleIndicatorTextColor">#737680</item>
+		<item name="titleIndicatorBackgroundColor">#1c1d1f</item>
+		<item name="titleIndicatorCounterTextColor">#1c1d1f</item>
+		<item name="titleIndicatorCounterBackgroundColor">#737680</item>
 		
 		<!-- Settings -->
 		<item name="hasTabBarStyle">false</item>
