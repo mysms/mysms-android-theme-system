@@ -62,6 +62,9 @@
 		<item name="friendsListInfoStyle">@style/FriendsListInfo</item>
 		
 		<item name="dialogHeaderStyle">@style/DialogHeader</item>
+        <item name="dialogBottomStyle">@style/DialogBottom</item>
+        <item name="dialogTopStyle">@style/DialogTop</item>
+
 		<item name="infoTextStyle">@style/InfoText</item>
 		 
 		<item name="messageSendButtonStyle">@style/MessageSendButton</item>
@@ -139,6 +142,9 @@
 		<item name="chooserListItemMessageDrawable">@drawable/message_error</item>
 		
 		<item name="dialogHeaderStyle">@style/DialogHeader</item>
+        <item name="dialogBottomStyle">@style/DialogBottom</item>
+        <item name="dialogTopStyle">@style/DialogTop</item>
+
 		<item name="infoTextStyle">@style/InfoText</item>
 		
 		<item name="friendsListItemNameStyle">@style/FriendsListItemName</item>
@@ -155,12 +161,16 @@
 		
 		<item name="recipientsToTextStyle">@style/RecipientsToText</item>
 		<item name="recipientsAddButtonStyle">@style/RecipientsAddButton</item>
-		
+
 		<item name="separatorLineStyle">@style/SeparatorLine</item>
 
 		<item name="topBarStyle">@style/TopBar</item>
-		<item name="android:windowBackground">@drawable/dialog_full_holo_dark</item>
-	</style>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@drawable/dialog_full_holo_dark</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+    </style>
 	
 	<style name="Mysms.Dialog.ComposeMessage">
 	    <item name="android:windowBackground">@drawable/window_background</item>

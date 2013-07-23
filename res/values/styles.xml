@@ -126,7 +126,12 @@
 		<item name="android:textColor">@color/list_item_text</item>
 		<item name="android:textSize">13sp</item>
 	</style>
-		
+    <style name="DialogTop">
+        <item name="android:background">@drawable/dialog_top</item>
+    </style>
+    <style name="DialogBottom">
+        <item name="android:background">@drawable/dialog_bottom</item>
+    </style>
 	<style name="InfoText">
 		<item name="android:textColor">@color/foreground_text</item>
 	</style>
