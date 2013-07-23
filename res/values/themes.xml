@@ -74,7 +74,9 @@
 		<item name="separatorLineStyle">@style/SeparatorLine</item>
 		<item name="separatorLineAttachmentStyle">@style/SeparatorLineAttachment</item>
 		<item name="attachmentAddIconDrawable">@drawable/ab_add_attachment</item>
-		
+
+        <item name="listSelectorDrawable">@drawable/list_selector_holo_light</item>
+
 		<!-- items for headerBar -->
 		<item name="headerBarStyle">@style/HeaderBar</item>
 		<item name="actionBarTitleStyle">@style/ActionBarTitle</item>
@@ -97,7 +99,7 @@
 		<item name="titleIndicatorBackgroundColor">#1c1d1f</item>
 		<item name="titleIndicatorCounterTextColor">#1c1d1f</item>
 		<item name="titleIndicatorCounterBackgroundColor">#737680</item>
-		
+
 		<!-- Settings -->
 		<item name="hasTabBarStyle">false</item>
 	</style>
