@@ -24,8 +24,8 @@ android {
     buildToolsVersion '17'
 
     defaultConfig {
-        versionName '2.4-SNAPSHOT'
-        versionCode 16
+        versionName '2.5-SNAPSHOT'
+        versionCode 17
         
         minSdkVersion 5
         targetSdkVersion 17
