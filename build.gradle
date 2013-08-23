@@ -66,7 +66,7 @@ android {
         release {
             signingConfig signingConfigs.release
         }
-        applicationVariants.each { variant ->
+        applicationVariants.all { variant ->
             def apk = variant.packageApplication.outputFile;
             def newName = "mysms-theme-system-" + variant.baseName.replace("-release", "") + (apk.name.contains("-unaligned") ? "-unaligned" : "") + "-" + defaultConfig.versionName + ".apk";
 
