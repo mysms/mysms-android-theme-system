@@ -87,6 +87,8 @@
 		<item name="usesActionBar">true</item>
 		<item name="android:homeAsUpIndicator">@drawable/ab_back</item>
 		<item name="headerIcon">@drawable/app_icon_white</item>
+
+		<item name="spinnerBackground">@drawable/spinner_background</item>
 	</style>
 	
 	<style name="Mysms.ComposeMessage">

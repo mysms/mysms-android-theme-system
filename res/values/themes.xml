@@ -100,6 +100,8 @@
 		<item name="titleIndicatorCounterTextColor">#1c1d1f</item>
 		<item name="titleIndicatorCounterBackgroundColor">#737680</item>
 
+		<item name="spinnerBackground">@drawable/spinner_background</item>
+
 		<!-- Settings -->
 		<item name="hasTabBarStyle">false</item>
 	</style>
