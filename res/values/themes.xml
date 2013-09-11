@@ -25,6 +25,8 @@
 		<item name="conversationListItemNameStyle">@style/ConversationListItemName</item>
 		<item name="conversationListItemSnippetStyle">@style/ConversationListItemSnippet</item>
 		<item name="chooserListItemTextStyle">@style/ChooserListItemText</item>
+
+        <item name="chartGridColor">#33ffffff</item>
 		
 		<item name="emojiKeyboardIconDrawable">@drawable/keyboard_icon</item>
 		<item name="emojiKeyboardCloseDrawable">@drawable/keyboard_close</item>
