@@ -51,8 +51,14 @@
 		<item name="messageListItemStatusDeliveredDrawable">@drawable/message_status_delivered</item>
 		<item name="messageListItemStatusFailedDrawable">@drawable/sms_mms_failed</item>
 		<item name="messageEditorBackgroundStyle">@style/MessageEditorBackground</item>
-		<item name="messageListItemAddIconDrawable">@drawable/ic_misc_file</item>
-		<item name="messageListItemIncomingAddIconDrawable">@drawable/ic_misc_file</item>
+        <item name="messageListItemAddIconDrawable">@drawable/ic_misc_file</item>
+        <item name="messageListItemIncomingAddIconDrawable">@drawable/ic_misc_file</item>
+        <item name="messageListItemIncomingAddIconAudioDrawable">@drawable/ic_audio_file</item>
+        <item name="messageListItemAddIconAudioDrawable">@drawable/ic_audio_file</item>
+        <item name="messageListItemIncomingAddIconVideoDrawable">@drawable/ic_video_file</item>
+        <item name="messageListItemAddIconVideoDrawable">@drawable/ic_video_file</item>
+        <item name="messageListItemIncomingAddIconVcardDrawable">@drawable/ic_vcard_file</item>
+        <item name="messageListItemAddIconVcardDrawable">@drawable/ic_vcard_file</item>
 		
 		<item name="notifyPopupNameStyle">@style/NotifyPopupName</item>
 		<item name="notifyPopupDateStyle">@style/NotifyPopupDate</item>
