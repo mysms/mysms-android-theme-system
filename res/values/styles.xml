@@ -33,6 +33,9 @@
 	<style name="ChooserListItemText">
     	<item name="android:textColor">@color/list_item_text</item>
     </style>
+    <style name="FriendsIndicator" parent="@android:style/Widget.ImageButton">
+        <item  name="android:background">@drawable/friendsindicator</item>
+    </style>
 	<style name="ImageButtonDialog">
 		<item name="android:textSize">15sp</item>
 		<item name="android:textColor">@color/foreground_text</item>

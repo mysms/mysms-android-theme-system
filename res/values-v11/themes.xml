@@ -27,7 +27,9 @@
 		<item name="emojiKeyboardIconDrawable">@drawable/keyboard_icon</item>
 		<item name="emojiKeyboardCloseDrawable">@drawable/keyboard_close</item>
 		<item name="emojiSmileyButtonDrawable">@drawable/smiley_button</item>
-		
+
+        <item name="friendsIndicatorStyle">@style/FriendsIndicator</item>
+
 		<item name="headerBarStyle">@style/HeaderBar</item>
 		<item name="conversationListItemDateStyle">@style/ConversationListItemDate</item>
 		<item name="conversationListItemDraftStyle">@style/ConversationListItemDraft</item>
@@ -97,6 +99,7 @@
 		<item name="headerIcon">@drawable/app_icon_white</item>
 
 		<item name="spinnerBackground">@drawable/spinner_background</item>
+        <item name="android:windowBackground">@drawable/window_background</item>
 	</style>
 	
 	<style name="Mysms.ComposeMessage">

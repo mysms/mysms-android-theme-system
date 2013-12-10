@@ -31,7 +31,9 @@
 		<item name="emojiKeyboardIconDrawable">@drawable/keyboard_icon</item>
 		<item name="emojiKeyboardCloseDrawable">@drawable/keyboard_close</item>
 		<item name="emojiSmileyButtonDrawable">@drawable/smiley_button</item>
-		
+
+        <item name="friendsIndicatorStyle">@style/FriendsIndicator</item>
+
 		<item name="inviteFriendsTextStyle">@style/InviteFriendsText</item>
 		<item name="inviteFriendsBackgroundStyle">@style/InviteFriendsBackground</item>
 		
@@ -112,6 +114,7 @@
 
 		<!-- Settings -->
 		<item name="hasTabBarStyle">false</item>
+        <item name="android:windowBackground">@drawable/window_background</item>
 	</style>
 	
 	<style name="Mysms.ComposeMessage">
