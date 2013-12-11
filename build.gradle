@@ -27,7 +27,7 @@ android {
         versionName '2.6-SNAPSHOT'
         versionCode 18
         
-        minSdkVersion 5
+        minSdkVersion 8
         targetSdkVersion 17
     }
     sourceSets {
@@ -43,6 +43,7 @@ android {
     }
   
     if (project.hasProperty('buildNumber')) defaultConfig.versionName += '-' + buildNumber
+    if (project.hasProperty('versionCode')) defaultConfig.versionCode = Integer.parseInt(versionCode)
   
     if (project.hasProperty('storeFile')) {
         android.signingConfigs.release.storeFile = file(storeFile)
