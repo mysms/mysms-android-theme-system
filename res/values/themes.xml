@@ -5,6 +5,8 @@
 		<item name="attachmentImageStyle">@style/AttachmentImage</item>
 		<item name="avatarDefaultDrawable">@drawable/ic_contact_picture</item>
 		<item name="avatarGroupDrawable">@drawable/ic_contact_group_picture</item>
+        <item name="avatarBlankDrawable">@drawable/ic_contact_blank_picture</item>
+        <item name="avatarTextColor">#d6ffffff</item>
 		<item name="bottomBarStyle">@style/BottomBar</item>
 		<item name="contentDividerStyle">@style/ContentDivider</item>
 		
@@ -145,6 +147,8 @@
 	<style name="Mysms.Dialog" parent="@android:style/Theme.Dialog">
 		<item name="avatarDefaultDrawable">@drawable/ic_contact_picture</item>
 		<item name="avatarGroupDrawable">@drawable/ic_contact_group_picture</item>
+        <item name="avatarBlankDrawable">@drawable/ic_contact_blank_picture</item>
+        <item name="avatarTextColor">#d6ffffff</item>
 
 		<item name="bottomBarStyle">@style/BottomBar</item>
 		
