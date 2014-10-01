@@ -6,7 +6,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:0.12.+'
+        classpath 'com.android.tools.build:gradle:0.13.+'
     }
 }
 
@@ -26,7 +26,7 @@ android {
     buildToolsVersion '20.0.0'
 
     defaultConfig {
-        versionName '2.7-SNAPSHOT'
+        versionName '2.8-SNAPSHOT'
         versionCode 18
         
         minSdkVersion 9
@@ -70,19 +70,11 @@ android {
             signingConfig signingConfigs.release
         }
         applicationVariants.all { variant ->
-            def apk = variant.packageApplication.outputFile;
-            def newName = "mysms-theme-system-" + variant.baseName.replace("-release", "") + (apk.name.contains("-unaligned") ? "-unaligned" : "") + "-" + defaultConfig.versionName + ".apk";
-
-            if (variant.zipAlign) {
-                variant.packageApplication.outputFile = new File(apk.parentFile, newName);
-                variant.zipAlign.outputFile = new File(apk.parentFile, newName.replace("-unaligned", ""));
-            } else {
-	              variant.packageApplication.outputFile = new File(apk.parentFile, newName.replace("-unaligned", ""));
+            variant.outputs.each { output ->
+                def apk = output.outputFile;
+                def newName = "mysms-theme-system-" + variant.baseName.replace("-release", "") + "-" + defaultConfig.versionName + ".apk";
+                output.outputFile = new File(apk.parentFile, newName);
             }
         }
     }
-}
- 
-tasks.withType(Compile) {
-    options.encoding = "UTF-8"
 }
